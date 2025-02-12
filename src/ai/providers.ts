@@ -11,13 +11,13 @@ const openai = createOpenAI({
 
 // Models
 
-export const gpt4Model = openai('gpt-4o', {
+export const gpt4Model = openai('gpt-4o-mini', {
   structuredOutputs: true,
 });
 export const gpt4MiniModel = openai('gpt-4o-mini', {
   structuredOutputs: true,
 });
-export const o3MiniModel = openai('o3-mini', {
+export const o3MiniModel = openai('gpt-4o-mini', {
   reasoningEffort: 'medium',
   structuredOutputs: true,
 });
