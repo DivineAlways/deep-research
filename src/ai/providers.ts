@@ -18,7 +18,6 @@ export const gpt4MiniModel = openai('gpt-4o-mini', {
   structuredOutputs: true,
 });
 export const o3MiniModel = openai('gpt-4o-mini', {
-  reasoningEffort: 'medium',
   structuredOutputs: true,
 });
 
